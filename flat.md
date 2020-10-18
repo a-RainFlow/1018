@@ -1,6 +1,6 @@
 ---
-array: array
-num: number
+args1: array
+args2: number
 ---
 
 Flatten the `array`
