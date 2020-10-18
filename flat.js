@@ -18,3 +18,4 @@ const flat = (array, num) => {
 	_flat(array, num + 1);
 	return arr;
 };
+// test
