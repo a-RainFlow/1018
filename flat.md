@@ -1,8 +1,3 @@
----
-args1: array
-args2: number
----
-
 Flatten the `array`
 
 ```js
