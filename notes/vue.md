@@ -131,10 +131,10 @@ MVVM: 一种模式
             },
             // 另一种写法
             text: {
-				handler(newVal, oldVal){
-					console.log(newVal, oldVal);	    			
-    			},
-                 immediate: true // 第一次监控的时候触发一次监控函数
+                handler(newVal, oldVal){
+                    console.log(newVal, oldVal);	    			
+                },
+                immediate: true // 第一次监控的时候触发一次监控函数
                 // deep: true  监控对象类型, 由于对象类型是引用地址, 如果对象中的元素发生改变监控函数不会触发, 需要该属性来深度监控
         	}
         }
