@@ -136,7 +136,7 @@ MVVM: 一种模式
                 },
                 immediate: true // 第一次监控的时候触发一次监控函数
                 // deep: true  监控对象类型, 由于对象类型是引用地址, 如果对象中的元素发生改变监控函数不会触发, 需要该属性来深度监控
-        	}
+	    }
         }
     })
 </script>
@@ -353,7 +353,6 @@ MVVM: 一种模式
         mounted(){
             console.log(this.$refs);  // {p1: p}
             console.log(this.$refs.p1);  // <p>aaa</p>
-
         }
     })
 </script>
