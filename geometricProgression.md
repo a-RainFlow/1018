@@ -1,4 +1,3 @@
-返回一个小于等于指定值的所有step的n次方的集合, 根据传入的参数不同做不同的处理
 ```js
 const myGeometricProgression = function (end, start = 1, step = 2) {
     let arr = [];
